@@ -1,7 +1,7 @@
-# ios-toolbox
+# ios-toolbox 🧰
 A list of tools to help iOS developers on daily basis
 
-### Deeplinks
+### Deeplinks 🔗
 Easily test deeplink on simulator from CLI
 
 ```
@@ -13,7 +13,7 @@ Example:
 xcrun simctl openurl booted "my_app://path/to/view"
 ```
 
-### Push Notifications
+### Push Notifications 📬
 
 Trigger remote push notification from curl request to test your application.
 
