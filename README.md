@@ -11,12 +11,12 @@ A list of tools to help iOS developers on daily basis
 ### Deeplinks 🔗
 Easily test deeplink on simulator from CLI
 
-```
+```sh
 xcrun simctl openurl booted "{DEEPLINK}"
 ```
 
 Example:
-```
+```sh
 xcrun simctl openurl booted "my_app://path/to/view"
 ```
 
@@ -24,7 +24,7 @@ xcrun simctl openurl booted "my_app://path/to/view"
 
 Trigger remote push notification from curl request to test your application.
 
-```
+```sh
 curl -v \
 -d '{"aps":{"alert":"test","sound":"default"}}' \
 -H "apns-topic:$BUNDLE" \
@@ -44,7 +44,8 @@ Note that you can replace `https://api.development.push.apple.com` with `https:/
 Example:
 
 __Default notification__
-```
+
+```sh
 curl -v \
 -d '{"aps":{"alert":"test","sound":"default"}}' \
 -H "apns-topic:com.yourcompanyname.yourappname" \
@@ -56,7 +57,8 @@ https://api.development.push.apple.com/3/device/123456789
 ```
 
 __Silent notification__
-```
+
+```sh
 curl -v \
 -d '{"aps":{"content-available":1}, "key":"value"}' \
 -H "apns-topic:com.yourcompanyname.yourappname" \
