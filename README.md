@@ -3,8 +3,10 @@ A list of tools to help iOS developers on daily basis
 
 ### CLI Tools 🛠
 
+* [fastlane](https://docs.fastlane.tools/) - The easiest way to automate beta deployments and releases for your iOS and Android apps.
 * [ios-deploy](https://github.com/ios-control/ios-deploy) - Install and debug iOS apps from the command line. Designed to work on un-jailbroken devices.
 * [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) - A cross-platform protocol library to communicate with iOS devices.
+* [SwiftInfo](https://github.com/rockbruno/SwiftInfo) - Extract and analyze the evolution of an iOS app's code.
 
 ### Deeplinks 🔗
 Easily test deeplink on simulator from CLI
