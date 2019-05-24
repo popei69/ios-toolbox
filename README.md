@@ -1,6 +1,11 @@
 # ios-toolbox 🧰
 A list of tools to help iOS developers on daily basis
 
+### CLI Tools 🛠
+
+* [ios-deploy](https://github.com/ios-control/ios-deploy) - Install and debug iOS apps from the command line. Designed to work on un-jailbroken devices.
+* [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) - A cross-platform protocol library to communicate with iOS devices.
+
 ### Deeplinks 🔗
 Easily test deeplink on simulator from CLI
 
