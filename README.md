@@ -68,3 +68,22 @@ curl -v \
 --cert certfile.pem:1234 \
 https://api.development.push.apple.com/3/device/123456789
 ```
+
+### Url Redirection 🔀
+
+Resolve url redirection to test destination for universal link
+
+```
+curl -s -I -L -o /dev/null -w %{url_effective} URL_TO_TEST
+```
+* `-s` for silent mode
+* `-I` for head of request only
+* `-L` to follow redirection
+* `-o FILE` to write output to `/dev/null`
+* `-w FORMAT` to use output format after completion
+
+Example:
+```
+curl -s -I -L -o /dev/null -w %{url_effective} https://maps.google.com
+# return https://www.google.com/maps
+```
