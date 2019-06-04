@@ -8,6 +8,13 @@ A list of tools to help iOS developers on daily basis
 * [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) - A cross-platform protocol library to communicate with iOS devices.
 * [SwiftInfo](https://github.com/rockbruno/SwiftInfo) - Extract and analyze the evolution of an iOS app's code.
 
+### Debug 🐛
+
+Show reference counting of an object in debug console to debug memory leaks.
+```
+print(CFGetRetainCount(object))
+```
+
 ### Deeplinks 🔗
 Easily test deeplink on simulator from CLI
 
